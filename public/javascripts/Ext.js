@@ -1,3 +1,7 @@
+/*
+ * This is from ExtJS from sencha. I know. I know.
+ */
+
 Ext = {};
 
 Ext.apply = function(o, c){

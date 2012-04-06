@@ -35,7 +35,7 @@ Oracle.prototype = {
 		for (var i=0; i<data.length; i++) {
 			var x = data[i],
 				p = me.p(x, mu[i], sigma2[i]);
-			mult*=p*10;
+			mult*=p*100;
 		}
 		return mult;
 	},
@@ -49,7 +49,7 @@ Oracle.prototype = {
 		for (var i=0; i<data.length; i++) {
 			var x = data[i],
 				p = me.p(x, mu[i], sigma2[i]);
-			mult*=p*10;
+			mult*=p*100;
 		}
 		return mult;
 	},
